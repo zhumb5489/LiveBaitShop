@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.logo {
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+}
+
+html{
+  background-image: url(fishback.jpg);
+}
+body{
+  background-color:#816517;
+  padding: 5px;
+}
+
+nav>ul{
+  list-style: none;
+  display: inline-flex;
+  justify-content:space-between;
+  background-color:#2a3d0f ;
+  padding:20px;
+  width:90%;
+  }
+  nav a{
+    text-decoration:none;
+    color: #CAB181;
+    border-style: ridge;
+  }
+
+
+.page1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(6, 200px);
+  grid-gap: 6rem;
+  grid-auto-flow: dense;
+
+}
+.line{
+  display: block;
+}
+.services{
+
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(6, 200px);
+  grid-gap: 6rem;
+  grid-auto-flow: dense;
+}

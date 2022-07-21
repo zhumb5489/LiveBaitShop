@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("SEOMobileAppDeeplinkingTrigger",["URI"],(function(a,b,c,d,e,f,g){function a(a){a=new(c("URI"))(a);a.go()}g.init=a}),98);
+__d("MCollapsibleSectionController",["cx","CSS","Event"],(function(a,b,c,d,e,f,g,h){"use strict";a=function(){function a(b,d,e){var f=this;this.$1=e;this.$2=d;this.$3=!1;c("Event").listen(e,"click",function(){return f.$4()});b!=null&&b!==""&&a.controllers.set(b,this)}var b=a.prototype;b.$4=function(){this.$3?c("CSS").removeClass(this.$2,"_1kar"):c("CSS").addClass(this.$2,"_1kar"),this.$3=!this.$3};a.setupLink=function(b,d){c("Event").listen(d,"click",function(){return a.$5(b)})};a.$5=function(b){b=a.controllers.get(b);if(!b)return;b=b.$2;c("CSS").addClass(b,"_1kar")};return a}();a.controllers=new Map();g["default"]=a}),98);
