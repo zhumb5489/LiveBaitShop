@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+/*Author:Zachary Humbard
+Date :07/20/2022
+Assignment:Live bait
+File:style.css
+*/
 .logo {
   display: flex;
   flex-flow: column;
